@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(İmages/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 5%;
+}
+
+nav{
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: 50px;
+	cursor: pointer;
+}
+
+nav ul{
+	flex: 1;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 14px 26px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav .btn{
+	color: white;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+.content{
+	color: white;
+}
+
+.content h1{
+	font-size: 90px;
+	margin-bottom: 20px;
+}
+
+.content h1 span{
+	color:green
+}
+
+.content p{
+	line-height: 23px;
+	font-size: 15px;
+}
+
+.content .btn{
+	display: inline-block;
+	margin-top: 30px;
+	background: orangered;
+	color: white;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 30px;
+}
+
+.coin-list{
+	position: absolute;
+	right: 8px;
+	bottom: 195px;
+	display: flex;
+	align-items: center;
+}
+
+.coin{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin: 0 15px;
+	color: orangered;
+	border: 2px solid white;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.coin img{
+	width: 40px;
+	margin-right: 10px;
+}
+
+.coin h2{
+	color: white;
+	margin-bottom: 5px;
+}
+
+.list-coin{
+	position: absolute;
+	left: 52%;
+	bottom: 60px;
+	display: flex;
+	align-items: center;
+}
+
+.crypto{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin: 0 15px;
+	color: orangered;
+	border: 2px solid white;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.crypto img{
+	width: 30px;
+	margin-right: 10px;
+}
+
+.crypto h3{
+	color: white;
+	margin-bottom: 5px;
+}
